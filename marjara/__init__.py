@@ -1,5 +1,5 @@
 """
-MARJARA v2
+MARJARA v3
 """
 from .config import HParams
 from .model import MarjaraModel
