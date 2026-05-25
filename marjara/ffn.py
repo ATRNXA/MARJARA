@@ -8,7 +8,7 @@ Changes over v2:
   - Expert dropout applied as weight zeroing AFTER renorm (not before), preventing NaN
   - set_noise_std() kept; noise_std now stored as plain float (not buffer) to avoid
     spurious state_dict entries
-  - Capacity masking uses cumsum trick instead of Python loop (no CPU sync)
+  - Capacity masking uses cumsum trick instead of Python loop (no CPU sync) 
   - aux_loss uses detached load to prevent routing collapse from gradient feedback
 """
 import math
