@@ -76,6 +76,3 @@ MARJARA accepts two formats:
 ```bash
 python train.py --data data/train.bin --resume checkpoints/checkpoint_latest.pt
 ```
-
-Honestly I have Ryzen 5 3500U + 6GB RAM, so till now I couldn't test this properly....
-if you have high end rig, please test and report me back, I really want to see obvious "logical" errors, how "efficient" is it etc...
