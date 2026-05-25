@@ -6,7 +6,7 @@ Dataset classes for MARJARA v2.
 """
 import numpy as np
 import torch
-from torch.utils.data import Dataset
+from torch.utils.data import Dataset 
 
 
 class TextDataset(Dataset):
